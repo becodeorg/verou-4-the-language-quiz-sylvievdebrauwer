@@ -3,6 +3,8 @@
 class Word
 {
     // TODO: add word (FR) and answer (EN) - (via constructor or not? why?)
+    private string $word;
+    private string $answer;
 
     public function verify(string $answer): bool
     {
